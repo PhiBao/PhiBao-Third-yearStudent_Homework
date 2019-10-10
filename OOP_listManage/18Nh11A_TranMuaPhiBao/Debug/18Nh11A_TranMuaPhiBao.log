@@ -1,0 +1,7 @@
+﻿  Date.cpp
+  List.cpp
+  main.cpp
+  Phong.cpp
+  Generating Code...
+C:\Users\kiter\source\repos\BT2.1_18Nh11A_TranMuaPhiBao\18Nh11A_TranMuaPhiBao\Phong.cpp(40,20): warning C4018: '<': signed/unsigned mismatch
+  18Nh11A_TranMuaPhiBao.vcxproj -> C:\Users\kiter\source\repos\BT2.1_18Nh11A_TranMuaPhiBao\Debug\18Nh11A_TranMuaPhiBao.exe
