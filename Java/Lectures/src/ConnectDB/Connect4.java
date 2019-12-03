@@ -102,7 +102,9 @@ public class Connect4 extends JFrame implements ActionListener {
 		if (e.getSource() == res) {
 			txt1.setText("");
 			txt2.setText("");
-			dtm.removeTableModelListener(tb);
+			while (dtm.getRowCount() != 0)
+				for (int i = 0; i < dtm.getRowCount(); i++)
+					dtm.removeRow(i);
 		}
 		if (e.getSource() == ex)
 			System.exit(0);
